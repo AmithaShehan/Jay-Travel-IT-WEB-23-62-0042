@@ -3,7 +3,7 @@
 }
 
 .navbar-nav a:hover,
-.navbar-toggler-icon,
+.navbar-toggler-icon
 {
   color: #FFC107;
 }
