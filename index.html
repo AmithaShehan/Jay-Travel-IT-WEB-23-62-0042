@@ -18,6 +18,8 @@
     />
     <!-- custom CSS  -->
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -82,7 +84,9 @@
     <!-- Main Section Starts Here -->
     <main class="mt-5 pb-5">
       <!-- Top Destinations Start -->
-      <section class="container-fluid" id="top-destinations">
+      <section class="container-fluid" id="top-destinations" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
         <div class="row text-center">
           <p
             class="display-5 fw-bold text-warning"
@@ -150,7 +154,9 @@
       <!-- Top Destinations End -->
 
       <!-- Our Team Leads Start -->
-      <section class="container-fluid mt-5" id="our-team-leads">
+      <section class="container-fluid mt-5" id="our-team-leads" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
         <div class="row text-center">
           <p
             class="display-5 fw-bold text-warning"
@@ -212,9 +218,11 @@
 
     <!-- Numbers Section Starts Here -->
 
-    <section class="container-fluid bg-dark mb-5">
-      <section class="container-md">
-        <div class="row justify-content-around pb-5">
+    <section class="container-fluid bg-dark mb-5" >
+      <section class="container-md" >
+        <div class="row justify-content-around pb-5" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <div class="col-md-2 col-sm-5 mt-5">
             <p class="text-warning display-4 text-center">250k+</p>
             <p class="text-white text-center">HAPPY CLIENTS</p>
@@ -237,7 +245,9 @@
     <!-- Numbers Section Ends Here -->
 
     <!-- Testimonials Start -->
-    <section class="container-fluid" id="top-destinations">
+    <section class="container-fluid" id="top-destinations" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
       <div class="row text-center">
         <p
           class="display-5 fw-bold text-warning"
@@ -298,7 +308,9 @@
     <!-- Testimonials End -->
 
     <!-- Contact Form Start -->
-    <section class="container mt-5">
+    <section class="container mt-5" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
       <div class="row text-center">
         <p
           class="display-5 fw-bold text-warning"
@@ -391,7 +403,7 @@
     <!-- Contact Form End -->
 
     <footer >
-      <section class="container-fluid pb-5">
+      <section class="container-fluid pb-5 mt-5">
         <section class="continer-lg px-5">
           <div class="row justify-content-around">
             <div class="col-lg-2 col-md-3 col-sm-5 col-12 text-center text-sm-start mt-5">
@@ -516,6 +528,12 @@ phoneInput.addEventListener('blur', function() {
 });
 }
   </script> -->
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 
     <!--  fontawesome icons   -->
     <script
