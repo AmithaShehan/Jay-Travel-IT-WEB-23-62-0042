@@ -5,9 +5,28 @@
  color: #fff;
 }
 
+body > header > nav > div > button > span{
+  background-color: #FFC107
+}
+
 .navbar-nav a:hover,
 .navbar-toggler-icon
 {
   color: #FFC107;
 }
 
+.ap-border{
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 5px solid #2916d6 ;
+}
+
+
+.footer-sub-menu-items p{
+  margin-bottom: 5px;
+}
+
+footer{
+  background-color: #060230;
+}
